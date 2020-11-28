@@ -6,7 +6,7 @@ Project based in UI interface [Interface](https://dribbble.com/shots/14498922-Po
 
 **Image Project Finish!**
 
-![alt text](https://github.com/nelson-sepulveda/select-workout-RN/blob/master/finish.jpg?raw=true)
+![alt text](https://github.com/nelson-sepulveda/select-workout-RN/blob/master/finish.jpeg?raw=true)
 
 
 **Install Project**
