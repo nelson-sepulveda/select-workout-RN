@@ -4,25 +4,6 @@ import { Ionicons } from '@expo/vector-icons';
 import styles from '../styles/AppStyles';
 
 const CardList = ({ card }) => {
-
-  let spinValue = new Animated.Value(0)
-
-  const spin = () => {
-    spinValue.setValue(0)
-      Animated.timing(
-        spinValue,
-        {
-            toValue: 1,
-            duration: 4000,
-            easing: Easing.linear
-        }
-      ).start()
-  }
-
-  useEffect(() => {
-    spin()
-  }, [])
-
   return (
     <View style={styles.containerCard}>
       <View style={[styles.containerBodyCard,{ backgroundColor: card.color }]}>
